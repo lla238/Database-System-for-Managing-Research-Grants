@@ -5,6 +5,7 @@ This project involves designing and implementing a database system to manage res
     - Models relationships between researchers, grant proposals, competitions, and reviewers.
 - **Schema Design**
     - Normalized to BCNF (Boyce-Codd Normal Form) to eliminate redundancy and anomalies.
-- **Path cost optimization** using step costs and penalties for turns.
-- Optional behaviors: "StayLeft" and "StayTop" cost functions to influence the agent's path.
-- Dynamic visualization of the agent’s path and explored rooms on the grid.
+- **Python Application**
+    - Provides an interface for querying, updating, and managing data within the database.
+- **Automated Workflow**
+    - Handles reviewer assignments and grant application processes based on predefined criteria.
